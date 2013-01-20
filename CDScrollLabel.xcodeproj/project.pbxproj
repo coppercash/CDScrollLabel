@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9B625C16A4D2D000484AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B625B16A4D2D000484AE9 /* Foundation.framework */; };
+		BE9B626116A4D2D000484AE9 /* CDScrollLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9B626016A4D2D000484AE9 /* CDScrollLabel.h */; };
+		BE9B626316A4D2D100484AE9 /* CDScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B626216A4D2D100484AE9 /* CDScrollLabel.m */; };
+		BE9B627016A4D3A700484AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B626F16A4D3A700484AE9 /* UIKit.framework */; };
+		BE9B627116A4D3A700484AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B625B16A4D2D000484AE9 /* Foundation.framework */; };
+		BE9B627316A4D3A700484AE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B627216A4D3A700484AE9 /* CoreGraphics.framework */; };
+		BE9B627916A4D3A700484AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE9B627716A4D3A700484AE9 /* InfoPlist.strings */; };
+		BE9B627B16A4D3A700484AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B627A16A4D3A700484AE9 /* main.m */; };
+		BE9B627F16A4D3A700484AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B627E16A4D3A700484AE9 /* AppDelegate.m */; };
+		BE9B628116A4D3A700484AE9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9B628016A4D3A700484AE9 /* Default.png */; };
+		BE9B628316A4D3A700484AE9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9B628216A4D3A700484AE9 /* Default@2x.png */; };
+		BE9B628516A4D3A700484AE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9B628416A4D3A700484AE9 /* Default-568h@2x.png */; };
+		BE9B628816A4D3A700484AE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B628716A4D3A700484AE9 /* ViewController.m */; };
+		BE9B629116A4D46800484AE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B629016A4D46800484AE9 /* QuartzCore.framework */; };
+		BE9B629816A4DA1600484AE9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9B629616A4DA1600484AE9 /* ViewController.xib */; };
+		BE9B629916A4DAE300484AE9 /* libCDScrollLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B625816A4D2D000484AE9 /* libCDScrollLabel.a */; };
+		BE9B629B16A4E04500484AE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9B629016A4D46800484AE9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE9B625616A4D2D000484AE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BE9B626116A4D2D000484AE9 /* CDScrollLabel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE9B625816A4D2D000484AE9 /* libCDScrollLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCDScrollLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B625B16A4D2D000484AE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE9B625F16A4D2D000484AE9 /* CDScrollLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDScrollLabel-Prefix.pch"; sourceTree = "<group>"; };
+		BE9B626016A4D2D000484AE9 /* CDScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDScrollLabel.h; sourceTree = "<group>"; };
+		BE9B626216A4D2D100484AE9 /* CDScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDScrollLabel.m; sourceTree = "<group>"; };
+		BE9B626D16A4D3A700484AE9 /* CDScrollLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDScrollLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B626F16A4D3A700484AE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE9B627216A4D3A700484AE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE9B627616A4D3A700484AE9 /* CDScrollLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDScrollLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		BE9B627816A4D3A700484AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE9B627A16A4D3A700484AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9B627C16A4D3A700484AE9 /* CDScrollLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDScrollLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BE9B627D16A4D3A700484AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE9B627E16A4D3A700484AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE9B628016A4D3A700484AE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE9B628216A4D3A700484AE9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE9B628416A4D3A700484AE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE9B628616A4D3A700484AE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE9B628716A4D3A700484AE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE9B628F16A4D3DF00484AE9 /* CDMemAssist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMemAssist.h; sourceTree = "<group>"; };
+		BE9B629016A4D46800484AE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE9B629716A4DA1600484AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9B625516A4D2D000484AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B629116A4D46800484AE9 /* QuartzCore.framework in Frameworks */,
+				BE9B625C16A4D2D000484AE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B626A16A4D3A700484AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B629B16A4E04500484AE9 /* QuartzCore.framework in Frameworks */,
+				BE9B629916A4DAE300484AE9 /* libCDScrollLabel.a in Frameworks */,
+				BE9B627016A4D3A700484AE9 /* UIKit.framework in Frameworks */,
+				BE9B627116A4D3A700484AE9 /* Foundation.framework in Frameworks */,
+				BE9B627316A4D3A700484AE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9B624D16A4D2D000484AE9 = {
+			isa = PBXGroup;
+			children = (
+				BE9B625D16A4D2D000484AE9 /* CDScrollLabel */,
+				BE9B627416A4D3A700484AE9 /* CDScrollLabelDemo */,
+				BE9B625A16A4D2D000484AE9 /* Frameworks */,
+				BE9B625916A4D2D000484AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9B625916A4D2D000484AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B625816A4D2D000484AE9 /* libCDScrollLabel.a */,
+				BE9B626D16A4D3A700484AE9 /* CDScrollLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9B625A16A4D2D000484AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B629016A4D46800484AE9 /* QuartzCore.framework */,
+				BE9B625B16A4D2D000484AE9 /* Foundation.framework */,
+				BE9B626F16A4D3A700484AE9 /* UIKit.framework */,
+				BE9B627216A4D3A700484AE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE9B625D16A4D2D000484AE9 /* CDScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B628F16A4D3DF00484AE9 /* CDMemAssist.h */,
+				BE9B626016A4D2D000484AE9 /* CDScrollLabel.h */,
+				BE9B626216A4D2D100484AE9 /* CDScrollLabel.m */,
+				BE9B625E16A4D2D000484AE9 /* Supporting Files */,
+			);
+			path = CDScrollLabel;
+			sourceTree = "<group>";
+		};
+		BE9B625E16A4D2D000484AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B625F16A4D2D000484AE9 /* CDScrollLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE9B627416A4D3A700484AE9 /* CDScrollLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B627D16A4D3A700484AE9 /* AppDelegate.h */,
+				BE9B627E16A4D3A700484AE9 /* AppDelegate.m */,
+				BE9B628616A4D3A700484AE9 /* ViewController.h */,
+				BE9B628716A4D3A700484AE9 /* ViewController.m */,
+				BE9B629616A4DA1600484AE9 /* ViewController.xib */,
+				BE9B627516A4D3A700484AE9 /* Supporting Files */,
+			);
+			path = CDScrollLabelDemo;
+			sourceTree = "<group>";
+		};
+		BE9B627516A4D3A700484AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B627616A4D3A700484AE9 /* CDScrollLabelDemo-Info.plist */,
+				BE9B627716A4D3A700484AE9 /* InfoPlist.strings */,
+				BE9B627A16A4D3A700484AE9 /* main.m */,
+				BE9B627C16A4D3A700484AE9 /* CDScrollLabelDemo-Prefix.pch */,
+				BE9B628016A4D3A700484AE9 /* Default.png */,
+				BE9B628216A4D3A700484AE9 /* Default@2x.png */,
+				BE9B628416A4D3A700484AE9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9B625716A4D2D000484AE9 /* CDScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B626616A4D2D100484AE9 /* Build configuration list for PBXNativeTarget "CDScrollLabel" */;
+			buildPhases = (
+				BE9B625416A4D2D000484AE9 /* Sources */,
+				BE9B625516A4D2D000484AE9 /* Frameworks */,
+				BE9B625616A4D2D000484AE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDScrollLabel;
+			productName = CDScrollLabel;
+			productReference = BE9B625816A4D2D000484AE9 /* libCDScrollLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE9B626C16A4D3A700484AE9 /* CDScrollLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B628C16A4D3A700484AE9 /* Build configuration list for PBXNativeTarget "CDScrollLabelDemo" */;
+			buildPhases = (
+				BE9B626916A4D3A700484AE9 /* Sources */,
+				BE9B626A16A4D3A700484AE9 /* Frameworks */,
+				BE9B626B16A4D3A700484AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDScrollLabelDemo;
+			productName = CDScrollLabelDemo;
+			productReference = BE9B626D16A4D3A700484AE9 /* CDScrollLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9B624F16A4D2D000484AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Coder Dreamer";
+			};
+			buildConfigurationList = BE9B625216A4D2D000484AE9 /* Build configuration list for PBXProject "CDScrollLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE9B624D16A4D2D000484AE9;
+			productRefGroup = BE9B625916A4D2D000484AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9B625716A4D2D000484AE9 /* CDScrollLabel */,
+				BE9B626C16A4D3A700484AE9 /* CDScrollLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9B626B16A4D3A700484AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B627916A4D3A700484AE9 /* InfoPlist.strings in Resources */,
+				BE9B628116A4D3A700484AE9 /* Default.png in Resources */,
+				BE9B628316A4D3A700484AE9 /* Default@2x.png in Resources */,
+				BE9B628516A4D3A700484AE9 /* Default-568h@2x.png in Resources */,
+				BE9B629816A4DA1600484AE9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9B625416A4D2D000484AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B626316A4D2D100484AE9 /* CDScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B626916A4D3A700484AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B627B16A4D3A700484AE9 /* main.m in Sources */,
+				BE9B627F16A4D3A700484AE9 /* AppDelegate.m in Sources */,
+				BE9B628816A4D3A700484AE9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE9B627716A4D3A700484AE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9B627816A4D3A700484AE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE9B629616A4DA1600484AE9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9B629716A4DA1600484AE9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9B626416A4D2D100484AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE9B626516A4D2D100484AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9B626716A4D2D100484AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CDScrollLabel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDScrollLabel/CDScrollLabel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE9B626816A4D2D100484AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CDScrollLabel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDScrollLabel/CDScrollLabel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE9B628D16A4D3A700484AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDScrollLabelDemo/CDScrollLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "CDScrollLabelDemo/CDScrollLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE9B628E16A4D3A700484AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDScrollLabelDemo/CDScrollLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "CDScrollLabelDemo/CDScrollLabelDemo-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9B625216A4D2D000484AE9 /* Build configuration list for PBXProject "CDScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B626416A4D2D100484AE9 /* Debug */,
+				BE9B626516A4D2D100484AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9B626616A4D2D100484AE9 /* Build configuration list for PBXNativeTarget "CDScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B626716A4D2D100484AE9 /* Debug */,
+				BE9B626816A4D2D100484AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9B628C16A4D3A700484AE9 /* Build configuration list for PBXNativeTarget "CDScrollLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B628D16A4D3A700484AE9 /* Debug */,
+				BE9B628E16A4D3A700484AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9B624F16A4D2D000484AE9 /* Project object */;
+}
