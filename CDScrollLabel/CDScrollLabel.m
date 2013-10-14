@@ -44,6 +44,14 @@
     _label.userInteractionEnabled = NO;
 }
 
+- (id)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initialize];
+    }
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame text:(NSString *)text{
     self = [super initWithFrame:frame];
     if (self) {
@@ -158,7 +166,7 @@
 - (CGFloat)textWidth{
     if (_label == nil || _label.text.length == 0) return self.bounds.size.width;
     CGSize textSize = [_label.text sizeWithFont:_label.font constrainedToSize:CGSizeMake(CGFLOAT_MAX, self.frame.size.height) lineBreakMode:UILineBreakModeWordWrap];
-    return textSize.width;
+    return textSize.width + 1;
 }
 
 - (CGFloat)scrollOffset{
@@ -208,7 +216,7 @@
         }
         return YES;
     }else{
-        _label.frame = self.bounds;
+        _label.frame = CGRectInset(self.bounds, kFadeLength, 0.0f);
         
         [_assistLabel removeFromSuperview];
         SafeMemberRelease(_assistLabel);
